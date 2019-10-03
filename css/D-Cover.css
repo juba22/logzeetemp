@@ -1,0 +1,113 @@
+
+.slide{
+    z-index: 0;
+}
+.d-md-block {
+    position: absolute;
+    top: 15%;
+    left: 410px;
+    color: #fff;
+    text-align: center;
+    line-height: 10px;
+}
+.d-md-block h1{
+    font-size: 70px;
+}
+.d-md-block b{
+    line-height: 60px;
+    font-size: 30px;
+}
+.d-md-block button{
+    background: #06163a;
+    border-radius: 25px;
+    border:none;
+    font-weight: bold;
+    padding: 15px 25px;
+    color: white;
+    font-family: 'Merriweather', serif;
+    transition: .5s;
+    margin-top: 20px;
+}
+.d-md-block button:hover{
+    background: #2d3a58;
+    transition: .5s;
+}
+.d-md-block button .fas{
+    margin-left: 10px;
+}
+.pos-2{
+    position: absolute;
+    top: 15%;
+    left: 10%;
+    color: white;
+    width: 500px;
+}
+.pos-2 h1{
+    font-size: 70px;
+}
+.pos-2 b{
+    display: block;
+}
+.pos-2 button{
+    background: #292e31;
+    border: 1px solid #292e31;
+    padding: 10px 40px;
+    color: #fff;
+    margin-top: 10px;
+    transition: .5s;
+    font-family: 'Merriweather', serif;
+}
+.pos-2 button:hover{
+    border: 1px solid #fff;
+    background: none;
+    transition: .5s;
+}
+.carousel-control-prev{
+    position: absolute;
+    left: 0px;
+    width: 100px;
+}
+.carousel-control-next{
+    position: absolute;
+    right: 0px;
+    width: 100px;
+}
+/** start under cover box **/
+.card{
+    padding: 10px;
+    border: none;
+    text-align: center;
+    transform: translateY(-110px);
+    background: none;
+    height: 340px;
+}
+.card b{
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    background: #ff35148a;
+    width: 268px;
+    height: 220px;
+    padding-top: 90px;
+    color: #fff;
+}
+.card img{
+    height: 220px;
+}
+.card button{
+    background: #06163a;
+    border-radius: 25px;
+    border:none;
+    font-weight: bold;
+    padding: 15px 20px;
+    color: white;
+    margin-bottom: 20px;
+    transition: .5s;
+}
+.card button:hover{
+    background: #ff3514;
+    transition: .5s;
+}
+.card .card-body{
+    transform: translateY(-50px);
+}

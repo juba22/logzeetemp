@@ -1,0 +1,172 @@
+.other{
+    margin: 100px;
+}
+.other .car{
+    width: 370px;
+    text-align: left;
+}
+.other .car img{
+    width: 140px;
+    height: 50px;
+}
+.other .car .text{
+    color: gray;
+    margin-top: 20px;
+}
+.other .car .link{
+    margin-top: 20px;
+}
+.other .car .link ul{
+    display: flex;
+    list-style: none;
+    text-decoration: none;
+    margin: 0px;
+    padding: 0px;
+}
+.other .car .link span{
+    margin: 10px;
+}
+.other .car .link ul li a{
+    color: #000;
+    margin: 10px;
+    transition: .5s;
+}
+.other .car .link ul li a:hover{
+    color: #ff3514;
+    transition: .5s;
+}
+
+
+
+
+.car-1 .title{
+    font-family: 'Quicksand', sans-serif;
+    color: gray;
+}
+.cargo{
+    display: flex;
+    margin-top: 40px;
+}
+.cargo img{
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    margin: 10px;
+}
+.cargo .info{
+    color: darkgray;
+}
+.cargo .info b a{
+    color: #ff3514;
+    text-decoration: none;
+    margin: 10px 0px;
+}
+.cargo .info span i{
+    margin-right: 5px;
+}
+.cargo .info span{
+    color: darkgray;
+}
+.cargo .info span a{
+    color: #000;
+    text-decoration: none;
+    transition: .5s;
+    margin-left: 10px;
+}
+.cargo .info span a:hover{
+    color: #ff3514;
+    transition: .5s;
+}
+.album .title{
+    font-family: 'Quicksand', sans-serif;
+    color: gray;
+}
+.album .album-1{
+    margin-top: 35px;
+}
+.album img{
+    width: 70px;
+    height: 70px;
+    margin-top: 10px;
+}
+
+
+/** start footer **/
+.footer{
+    background: #06163a;
+    width: 100%;
+    padding: 20px;
+}
+.footer .foot{
+    display: flex;
+}
+footer .list{
+    float: left;
+}
+.footer .list ul{
+    display: flex;
+    list-style: none;
+}
+.footer .list ul li{
+    color: #fff;
+    margin-right: 10px;
+    font-size: 15px;
+}
+.footer .list ul li a{
+    color: #fff;
+    text-decoration: none;
+}
+.footer .list ul li a:hover{
+    color: #ff3514;
+}
+
+.footer .copy small{
+    color: #fff;
+    float: right;
+}
+.footer .copy small a{
+    text-decoration: none;
+    color: #ff3514;
+}
+
+
+
+.gotopbtn{
+    position: fixed;
+    bottom: 40px;
+    right: 40px;
+    font-size: 22px;
+    width: 50px;
+    height: 50px;
+    background: #06163a;
+    color: #fff;
+    border: none;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 50px;
+    text-decoration: none;
+    color: #fff;
+}
+.lov{
+    background: #f1fbff;
+    padding: 100px 0px;
+    width: 100%;
+}
+.lov .cir {
+    width: 16.66%;
+    float: left;
+}
+.lov .cir .chart{
+    position: relative;
+    width: 110px;
+    height: 110px;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 30px;
+    line-height: 110px;
+}
+.lov .cir canvas{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}

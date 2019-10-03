@@ -1,0 +1,108 @@
+
+.navbar .logo{
+    margin-right: 365px;
+}
+ 
+.bg-white{
+    border-bottom: 1px solid #06163a4f;
+    height: 70px;
+}
+.navbar .logo img{
+    width: 130px;
+    height: 45px;
+}
+
+.about-1 span{
+    display: block;
+}
+
+.button .dropdown button{
+    background: #f4f4f4;
+    border: none;
+    color: black;
+    margin-top: 7px;
+    padding: 5px 20px;
+}
+
+.button .dropdown button img{
+    width: 20px;
+    height: 15px;
+}
+.button .dropdown .dropdown-menu{
+    z-index: 3;
+}
+.button .dropdown .dropdown-item{
+    font-weight: bold;
+}
+
+.bg-light{
+    background: #fafafa85;
+    padding: 15px 0px;
+}
+
+.nav-item{
+    font-weight: bold;
+    margin-right: 5px;
+    transition: .5s;
+}
+.nav-item:hover{
+    background: #ff3514;
+    border-radius: 5px;
+    transition: .5s;
+    color: #fff;
+}
+
+.sticky-top {
+     position: sticky ;
+      position: sticky;
+      top: 0;
+      z-index: 1;
+    }
+
+/** modal**/
+.modal-dialog{
+    width: 600px;
+    margin-top: 190px;
+}
+.modal-content {
+    border-radius: 25px;
+}
+.modal-content .modal-footer{
+    border:none;
+}
+.modal-content .fas{
+    color: gray;
+    padding: 5px;
+}
+.modal-content input{
+    border: none;
+    width: 540px;
+    outline: none;
+}
+
+
+.fa-search:before {
+    cursor: pointer;
+}
+.form-inline button{
+    background: #ff3514;
+    border: none;
+    color: #fff;
+    font-weight: bold;
+    padding: 10px 20px;
+    transition: .5s;
+}
+
+.form-inline .btn-danger:hover{
+    background: #ff9988;
+    transition: .5s;
+}
+
+.form-inline button .fas{
+    color: #fff;
+}
+
+.form-inline .fas , a{
+    color: #ff3514;
+    margin-right: 10px;
+}
